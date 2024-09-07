@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'titulos';
+    src: url('Relationshipofmélodrame.ttf') format('opentype');
+}
+@font-face {
+        font-family: 'subtitulos';
+        src: url('Designer.otf') format('opentype');
+}
+* {
+margin: 0px;
+padding: 0px;
+}
+:root {
+    --fontitulos : 'titulos';
+    --fonsubtitulos : 'subtitulos'
+}
+h1 {
+    font-family: var(--fontitulos);
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 5px;
+    padding: 30px;
+}
+li {
+    font-family: var(--fonsubtitulos);
+    font-size: 20px;
+    list-style: none;
+    margin-right: 100px;
+   
+}
+abbr {
+    text-decoration: none;
+}
+ul {
+    display: flex;
+}
+header {
+   background-color: black;
+    color: aliceblue;
+    
+}
+body {
+    background-color: rgb(56, 58, 57);
+ 
+    margin: auto;
+}
+section {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-color: azure;
+    box-shadow: 0px 0px 15px black ;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+footer {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+} 
+p {
+    text-align: center;
+    font-family: var(--fonsubtitulos);
+    font-size: 30px;
+    margin-top: 15px;
+}
+input {
+    font-size: 30px;
+    text-align: center;
+    width: 50px;
+}
+
+input:hover {
+    background-color: yellowgreen;
+}
+p#res {
+    margin-top: 50px;
+    
+}
+.add{
+    width: 200px;
+}
+select#res {
+    width: 200px;
+}
+input#so {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    padding: 10px;
+}
+li:hover{
+    background-color: #F3F4F6;
+    color: black;
+    border-radius: 5px;
+    
+    
+}
+li#estudos::after {
+    content: '\1F4DA';
+}
+li#financas::after {
+    content: '\1F4B0';
+}
+li#dados::after {
+    content: '\1F4C8';
+}
+
+select#res {
+    display: block;
+    width: 200px;
+
+   
+    margin: auto;
+}
+input{
+    width: 150px;
+}
+p {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'titulo1';
+    src: url('h1dabio.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'titulo2';
+    src: url('h2dabio.ttf') format('opentype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --titulo1 : 'titulo1';
+    --titulo2 : 'titulo2';
+}
+h1 {
+    text-align: center;
+    font-family: var(--titulo1);
+    font-size: 65px;
+    font-weight: normal;
+    letter-spacing: 10px;
+    color: yellowgreen;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: azure;
+}
+body {
+    background-color: aquamarine;
+}
+section {
+    max-width: 900px;
+    height: 1000px;
+    min-height: 350px;
+    margin: auto;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.475);
+}
+h2 {
+    font-family: var(--titulo2);
+    font-weight: normal;
+    padding: 30px;
+    font-size: 50px;
+    color: rgb(53, 177, 211);
+    letter-spacing: 10px;
+}
